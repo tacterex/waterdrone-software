@@ -1,0 +1,19 @@
+# Model 01 (chaotic variant): same lake and same single origin as model_01_single_origin,
+# but sampled along a chaotic random-walk path instead of a regular lawnmower grid.
+BOUNDARY 50.0000 30.0000
+BOUNDARY 50.0000 30.0160
+BOUNDARY 50.0100 30.0160
+BOUNDARY 50.0100 30.0000
+
+ORIGIN PARAM1 50.0050 30.0080 30 1000
+
+START_TIME 1767254400
+SPEED_MS 2.0
+SAMPLE_INTERVAL_S 1
+Z_MIN 1
+Z_MAX 10
+Z_PERIOD_S 120
+PATTERN chaotic
+DURATION_S 13000
+TURN_SIGMA_DEG 6
+SEED 42

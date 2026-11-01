@@ -1,0 +1,26 @@
+Measurement,Unit,Description,Range of Detection
+Timestamp,mm/dd/yyyy hh:mm:ss,Time and date of sample collection in PST.,
+Latitude,,"Decimal degrees WGS 84, GPS16X-HVS.",<15 meter accuracy
+Longitude,,"Decimal degrees WGS 84, GPS16X-HVS.",<15 meter accuracy
+WS fDOM,QSE,"WETStar fluorescent dissolved organic matter (FDOM), water. With units of quinine sulfate equivalents. ",up to 400 QSE
+WS fCHLA,µg/L,"WETStar chlorophyll-a, water, corrected for temperature. ",0.03 - 75 ug/L
+Tr,%,Transmittance,0 - 100%
+C 650,m-1,Beam transmissometer/attenuation at 650 nm.,up to 46 m-1
+NO3,mg/L,"Nitrate plus nitrite, water, in situ, unfiltered, milligrams per liter as nitrogen.",up to 28 mg/L
+NO3,µM,"Nitrate plus nitrite, water, in situ, unfiltered, micromolar per liter nitrogen.",up to 2000 µM
+DUV ex310em452,counts,"custom FDOM sensor, excitation at 310, emission at 452",0 - 16000 counts
+DUV ex280em452,counts,"custom FDOM sensor, excitation at 280, emission at 452",0 - 16000 counts
+DUV ex280em350,counts,"custom FDOM sensor, excitation at 280, emission at 350",0 - 16000 counts
+TSG Temp,degC,"Temperature, water, degrees Celsius.",-5 to 35 degC
+TSG Cond,µS/cm,"Conductivity, water, unfiltered, microsiemens per centimeter. ",0 - 70 mS/cm
+TSG Salinity,PSU,"Salinity, water, unfiltered.",56 (PSS-78)
+EXO Temp,degC,"Temperature, water, degrees Celsius.",-5 to 50 degC
+EXO SpCond,µS/cm,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celcius.",0 - 200 mS/cm
+EXO pH,,"pH, water, unfiltered, field, standard units. ",0 - 14 units
+EXO pH,mV,"pH, water, unfiltered, field, millivolts.",-999 - 999 mV
+EXO DO,mg/L,"Dissolved oxygen, water, unfiltered, milligams per liter.",0 - 50 mg/L
+EXO DO,%,"Dissolved oxygen, water, unfiltered, percent of saturation. ",0 - 500%
+EXO Turb,FNU,"Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +/- 2.5 degree, formazin nephelometric units (FNU).",0 - 4000 FNU
+EXO fDOM,QSE,"Colored dissolved organic matter (CDOM), water, in situ, singe band excitation, fluorescence emission, parts per billion quninie sulfate equivalents. ",0 to 300 QSE
+EXO fChla,µg/L,"Chlorophyll-a, estimated, water, in situ, in vivo fluorescence (IVF), micrograms per liter.",0 - 400 ug/L
+EXO fBGAPC,µg/L,"Phycocyanin, estimated, water, in situ, in vivo fluorescence (IVF), micrograms per liter.",0 - 100 ug/L
